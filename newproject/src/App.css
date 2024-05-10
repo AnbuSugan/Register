@@ -1,0 +1,94 @@
+.home{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+.create_form input{
+  width: 300px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  outline:none;
+}
+.create_form button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.task{
+  display: flex;
+  align-items: center;
+  width: 345px;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  height: 35px;
+  padding: 2px 5px 2px 5px;
+  margin-top: 2px;
+}
+.deleteBtn{
+  margin-top: 5px;
+  margin-left: 15%;
+  margin-bottom: 5%;
+}
+.loginWrapper{
+  box-sizing: border-box;
+  background-color: burlywood;
+  width: 40%;
+  margin-left: 30%;
+  padding-bottom: 2%;
+}
+#loginWrapper{
+  text-align: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+.loginTitle{
+  padding-top: 2%;
+}
+.labelName{
+  margin-right: 45%;
+  padding-right: 2%;
+}
+.labelPassword{
+  margin-right: 43%;
+}
+
+/* Register Form */
+#registerWrapper{
+  text-align: center;
+  justify-content: center;
+  margin-top: 10%;
+
+}
+.registerWrapper{
+  box-sizing: border-box;
+  background-color: burlywood;
+  width: 40%;
+  margin-left: 30%;
+  padding-bottom: 2%;
+
+}
+.headTitleRegister{
+ padding-top: 2%;
+}
+.labelNames{
+  margin-right: 45%;
+  padding-right: 2%;
+}
+.labelPasswords{
+  margin-right: 43%;
+}
+.errorName{
+color: red;
+}
+.errorPassword{
+  color: red;
+}
+.error{
+  color: red;
+}
+.logoutBtn{
+  margin-left: 20%;
+  margin-top: 2%;
+}
